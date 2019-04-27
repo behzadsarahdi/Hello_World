@@ -10,3 +10,4 @@ dependencies:
     - geopandas
     - pysheds
     - mplleaflet
+    - urllib.request
