@@ -1,4 +1,4 @@
-name: example-environment
+name: Basin-environment
 channels:
   - conda-forge
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
   - numpy
   - pip:
     - nbgitpuller
-    - sphinx-gallery
-    - pandas
     - matplotlib
-    - pyre
+    - geopandas
+    - pysheds
+    - mplleaflet
